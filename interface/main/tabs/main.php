@@ -263,9 +263,10 @@ $twig = (new TwigContainer(null, $GLOBALS['kernel']))->getTwig();
 
     <?php Header::setupHeader(['knockout', 'tabs-theme', 'i18next', 'hotkeys']); ?>
 
-    # Add custom acupuncture theme css
+
     <link rel="stylesheet" href="<?php echo $GLOBALS['web_root']; ?>/public/themes/custom_acupuncture.css?v=<?php echo $v_js_includes; ?>">
     
+
     <script>
         // set up global translations for js
         function setupI18n(lang_id) {
