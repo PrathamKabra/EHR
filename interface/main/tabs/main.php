@@ -264,6 +264,7 @@ $twig = (new TwigContainer(null, $GLOBALS['kernel']))->getTwig();
     <?php Header::setupHeader(['knockout', 'tabs-theme', 'i18next', 'hotkeys']); ?>
 
 
+    
     <link rel="stylesheet" href="<?php echo $GLOBALS['web_root']; ?>/public/themes/custom_acupuncture.css?v=<?php echo $v_js_includes; ?>">
     
 
